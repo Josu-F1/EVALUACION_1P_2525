@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Jonathan Josue Fiallos Yanza  
+**Fecha:** 30/04/2025  
 
 ---
 
@@ -38,7 +38,23 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+El git clone sirve para clonar repositorios, ya sean de nuestra propiedad o de otra persona a nuestro pc local
+El fork sirve para colaborar con proyectos que no es de nosotros, he implementar nnevas funcionalidades que le llegaran al propietario del repositorio
+El git pull nos sirve para traer todos los cambios del repositorio remoto al local, sea porque se trabaja en grupo y hay nuevos cambios.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Para realizar el fork, tenemos que ir al nombre del usuario en este caso es del https://github.com/santiagojara?tab=repositories y realizar un fork
+donde se copia en nuestro repositorio y podemos ir trabajando desde ahi:
+
+![alt text](image.png)
+
+Una vez estando en mi cuenta realizanos un "git clone" desde mi repositorio y de ahi trabajamos los cambios
+
+![alt text](image-1.png)
+
+Pudimos verificar que estamos trabajando desde mi repositorio que hice el fork con el comando "git remote -v" , con este comando verificamos que esta desde mi repositorio 
+
+![alt text](image-2.png)
 
 ---
 
@@ -59,8 +75,14 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
+Se creo la carpeta .gitignore y se excluyo los archivos .log y temp/, y se realizo el primer commit 
+![alt text](image-3.png)
+El .gitignore nos sirve para que que no se suban en los cambios ni a la rama remota todo lo que esta dentro del repositorio, puede ser 
+archivos redundantes.
+![alt text](image-4.png)
+En la presente imagen se crea un archivo llamado prueba.log y evidentemente no se evincia al hacer un "git status", con eso se comprueba que todos los archivos .log son ignorados 
+![alt text](image-5.png) 
+se muestra el tag
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -88,8 +110,19 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+Se debe realizar el flujo de trabajo de git flow con los comandos especificos para que funciones concreta.
+Es mejor usar el git flow porque nos ayuda automatizar los pasos, y no eliminar la rama feature nosotros mismos
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Se inicia el git flow en el repositorio 
+![alt text](image-6.png)
+Se realiza los cambios pedidos con sus respectivos cambios al igual un merge para que el main este igual 
+![alt text](image-7.png)
+realizamos todos los cambios y el merge 
+![alt text](image-8.png)
+y de agregaga la resolucion de todo los cambios 
+![alt text](image-9.png)
+como esta el tag
+![alt text](image-10.png)
 
 ---
 
@@ -121,10 +154,14 @@
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
 **📝 Respuesta:**
+ Issue es una herramienta para reportar problemas, sugerir mejoras o discutir ideas dentro de un repositorio
+ Pull Request es una solicitud para fusionar cambios desde una rama a otra
+ Los issues identifican problemas o mejoras, mientras que los pull requests gestionan cambios en el código. 
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
----
+
+
+-
 
 ## Pregunta 5 (2 puntos)
 
